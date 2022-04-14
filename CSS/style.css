@@ -489,6 +489,16 @@ font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
     h1{
         animation: none;
     }
+    .flip-card:hover .flip-card-inner {
+      transform: none;
+    }
+    .flip-card-inner {
+      transition: none;
+      transform-style: none;
+    }
+    .flip-card-back {
+      transform: none;
+    }
   }
 
 @media screen and (min-width: 820px){

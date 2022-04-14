@@ -52,7 +52,7 @@
     
         <div class="photo2">
           <h2>Brief Biography</h2>  
-        <img src = "images/aa.jpg" alt ="a picture of me.">
+        <img src = "images/aa.jpg" alt ="photo of me at a restaurant">
         </div>
        
         <div class="bio-text">
@@ -71,22 +71,23 @@
       <form id="contact" action="https://formspree.io/f/xlezlnob" method="POST">
         <legend><h3>Contact Form</h3></legend>
         <fieldset>
-          <label for="name_id">Name</label>
-          <input placeholder="Your name" type="text" tabindex="1" required autofocus name="name" id="name_id">
+          <legend><label for="name_id">Name</label></legend>
+          <input placeholder="Your name" type="text" required autofocus name="name" id="name_id">
         </fieldset>
         <fieldset>
-          <label for="email_id">Email</label>
-          <input placeholder="Your Email Address" type="email" tabindex="2" required name="email" id="email_id">
+          <legend><label for="email_id">Email</label></legend>
+          <input placeholder="Your Email Address" type="email" required name="email" id="email_id">
         </fieldset>
         <fieldset>
-          <label for="number_id">Phone Number</label>
-          <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required name="phone" id="number_id">
+          <legend><label for="number_id">Phone Number</label></legend>
+          <input placeholder="Your Phone Number (optional)" type="tel"  required name="phone" id="number_id">
         </fieldset>
         <fieldset>
-          <label for="message_id">Leave a Message</label>
-          <textarea placeholder="Type your message here...." tabindex="5" required name="message" id="message_id"></textarea>
+          <legend><label for="message_id">Leave a Message</label></legend>
+          <textarea placeholder="Type your message here...." required name="message" id="message_id"></textarea>
         </fieldset>
         <fieldset>
+          <legend></legend>
           <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
         </fieldset>
       </form>
